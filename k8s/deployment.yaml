@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: listrado/conversao-temperatura:v1
+          image: listrado/conversao-temperatura:{{TAG}}
           ports:
             - containerPort: 8080
           env:
